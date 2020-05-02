@@ -1,14 +1,24 @@
 <!-- NAVBAR -->
+<%= render 'shared/navbar' %>
+<!-- WELCOME -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <h1> Hello World! </h1>
+      <p> My name is Victoria and I am a full stack developer </p>
+      <button> View my resume </button>
+    </div>
+    <div class="col-4">
+      <%= image_tag "home.png" %>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- BLOG POST -->
 
 <!--- FOOTER -->
-<div class="footer">
-  <div class="container d-flex justify-content-between">
-    <div class="footer-links">
-      <a href="https://github.com/victoria-vassi"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/victoria.codes/"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/victoriavassileva/"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </div>
-</div>
+<%= render 'shared/footer' %>
+
