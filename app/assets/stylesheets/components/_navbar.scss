@@ -1,13 +1,25 @@
-.navbar-lewagon {
+#navbar {
+  position:fixed;
+  width:100%;
+  padding:20px;
+  justify-content:flex-end;
+  display:flex;
+  top: 0;
+  left: 0;
   justify-content: space-between;
   background: white;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.nav-link{
+  text-decoration: none;
+  color:black;
+  list-style-type: none;
+  padding-right:100px;
+  display: inline !important;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.selection_home {
+  height:100%;
 }
-

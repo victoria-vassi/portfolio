@@ -6,6 +6,12 @@
   height: 80px;
   padding: 0px 50px;
   color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  overflow: hidden;
 }
 .footer-links {
   display: flex;
@@ -28,3 +34,5 @@
 .footer-copyright {
   opacity: 1;
 }
+
+

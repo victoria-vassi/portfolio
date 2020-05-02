@@ -1,23 +1,33 @@
 <!-- NAVBAR -->
-<%= render 'shared/navbar' %>
+
+    <%= render 'shared/navbar' %>
+
+
 <!-- WELCOME -->
 
-<div class="container">
-  <div class="row">
-    <div class="col-8">
-      <h1> Hello World! </h1>
-      <p> My name is Victoria and I am a full stack developer </p>
-      <button> View my resume </button>
-    </div>
-    <div class="col-4">
-      <%= image_tag "home.png" %>
+<section class="section section_home">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col">
+        <h1> Hello World! </h1>
+        <p> My name is Victoria and I am a full stack developer </p>
+        <button class="home-button"> View my resume </button>
+      </div>
+      <div class="col">
+        <img src="assets/home.png" alt="logo" >
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 
+
+
+<!-- PORTFOLIO-->
 
 <!-- BLOG POST -->
+
+<!-- ABOUT ME-->
 
 <!--- FOOTER -->
 <%= render 'shared/footer' %>
