@@ -1,11 +1,11 @@
 <!-- NAVBAR -->
 
-    <%= render 'shared/navbar' %>
+  <%= render 'shared/navbar' %>
 
 
 <!-- WELCOME -->
-
 <section class="section section_home">
+<div class="banner">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col">
@@ -14,10 +14,10 @@
         <button class="home-button"> View my resume </button>
       </div>
       <div class="col">
-        <img src="assets/home.png" alt="logo" >
+        <img src="assets/new.png" alt="logo" class="img">
       </div>
-    </div>
   </div>
+</div>
 </section>
 
 
@@ -25,7 +25,7 @@
 
 <section class="section section_portfolio">
   <div class="container">
-    <div class="row">
+    <div class="row row-home">
       <h1> Portfolio </h1>
     </div>
 
@@ -69,7 +69,7 @@
 
 <section class="section section_portfolio">
   <div class="container">
-    <div class="row">
+    <div class="row row-home">
       <h1> Blog </h1>
     </div>
 
@@ -97,6 +97,18 @@
 
 <!-- ABOUT ME-->
 
+
+<section class="section section_portfolio">
+  <div class="container">
+    <div class="row row-home">
+      <h1> About me </h1>
+    </div>
+
+  </div>
+</section>
+
 <!--- FOOTER -->
+
+<%= render 'shared/footer' %>
 
 
