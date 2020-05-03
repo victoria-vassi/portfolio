@@ -1,13 +1,11 @@
 .footer {
-  background: rgb(56, 102, 92);
+  background: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
   padding: 0px 50px;
   color: white;
-  position: absolute;
-  left: 0;
   bottom: 0;
   height: 90px;
   width: 100%;
@@ -18,7 +16,7 @@
   align-items: center;
 }
 .footer-links a {
-  color: white;
+  color: #38665C;
   opacity: 1;
   text-decoration: none;
   font-size: 24px;
