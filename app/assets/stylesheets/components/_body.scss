@@ -6,3 +6,20 @@ body {
   padding-left: 44px;
   padding-top: 50px;
 }
+
+.section_about {
+  overflow: hidden;
+  position: absolute;
+}
+
+.about-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 16px;
+}
