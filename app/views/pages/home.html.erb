@@ -124,4 +124,8 @@
 
 <%= render 'shared/footer' %>
 
-
+<script>
+   $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 1080);
+    });
+</script>

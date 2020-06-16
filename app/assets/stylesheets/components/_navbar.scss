@@ -16,3 +16,12 @@
 .navbar-nav{
   flex: auto;
 }
+
+.bg-transparent {
+  transition: 750ms ease;
+  background: transparent;
+}
+
+.bg-transparent.scrolled{
+  background: white !important;
+}
